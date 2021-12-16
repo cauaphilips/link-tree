@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Sans+Pro:wght@600&display=swap');
+
+body {
+    background-color: var(--colorback);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --colorback: #FAF7FD;
+    --bordercolor: #BB99DD;
+}
+.container {
+    margin: 0 auto;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+.botao {
+    display: block;
+    margin: 15px;
+    width: 200px;
+    background-color: var(--colorback);
+    color: var(--bordercolor);
+    border: solid 3px var(--bordercolor);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.links {
+    text-decoration: none;
+}
+.iconeImg {
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    border: solid 3px var(--bordercolor);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    
+}
+.icon1 {
+    margin: 20px 10px 2px 5px;   
+}
+.icon2 {
+    margin: 20px 10px 2px 5px;   
+}
+.icon3 {
+    margin: 20px 10px 2px 5px;   
+}
+.icon4 {
+    margin: 20px 10px 2px 5px;   
+}
+.icon5 {
+    margin: 20px 10px 2px 5px;   
+}
